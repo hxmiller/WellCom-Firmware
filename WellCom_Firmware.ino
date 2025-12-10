@@ -165,7 +165,7 @@ Preferences prefs;
 String gDeviceName;  // global device name read from flash
 
 // Define a firmware version string:
-#define WELLCOM_FIRMWARE_VERSION "1.1.1.2"  // update as you release new versions
+#define WELLCOM_FIRMWARE_VERSION "1.1.1.3"  // update as you release new versions
 
 bool globalStatus = false;
 
