@@ -152,7 +152,7 @@ const char* BACKEND_URL =
 
 // Placeholder firmware URL for OTA (update this when you have a real .bin URL)
 const char* OTA_FIRMWARE_URL =
-  "https://github.com/hxmiller/WellCom-Firmware/raw/refs/heads/main/WellCom_v1.1.1.2.bin";
+  "https://raw.githubusercontent.com/hxmiller/WellCom-Firmware/main/WellCom_latest.bin";
 
 // =================== TIME / NTP CONFIG ===================
 
@@ -1003,7 +1003,13 @@ void Perform_download() {
     return;
   }
 
+  Serial.println("");
+  Serial.println("");
   Serial.println("Starting OTA firmware download...");
+  Serial.println("Starting OTA firmware download...");
+  Serial.println("Starting OTA firmware download...");
+  Serial.println("");
+  Serial.println("");
 
   WiFiClientSecure client;
   client.setInsecure(); // For quick start. Later: use real cert.
