@@ -152,7 +152,7 @@ const char* BACKEND_URL =
 
 // Placeholder firmware URL for OTA (update this when you have a real .bin URL)
 const char* OTA_FIRMWARE_URL =
-  "https://example.com/WellCom_v1.0.bin";
+  "https://github.com/hxmiller/WellCom-Firmware/raw/refs/heads/main/WellCom_v1.1.1.2.bin";
 
 // =================== TIME / NTP CONFIG ===================
 
